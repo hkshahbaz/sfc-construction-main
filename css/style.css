@@ -1,0 +1,710 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700&display=swap");
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("../font/Gilroy-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("../font/Gilroy-ExtraBold.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../font/Gilroy-Light.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("../font/Gilroy-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("../font/Gilroy-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Gilroy-Regular";
+  font-weight: 400;
+  font-style: normal;
+  color: #6e6e6e;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  border: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+header .navbar-nav .nav-item .nav-link {
+  font-size: 16px;
+  font-family: "Gilroy-Regular";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 150.5%;
+  color: #6e6e6e;
+  padding-right: 52px;
+}
+header .navbar-nav .nav-item .nav-link:hover {
+  color: #065393;
+  font-family: "Gilroy-Medium";
+  font-weight: 500;
+  font-style: normal;
+}
+.btn-default {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150.5%;
+  font-family: "Gilroy-Medium";
+  padding: 15px 43px;
+  background: #065393;
+  border-radius: 0px;
+  color: #ffffff;
+}
+header .navbar .navbar-brand img {
+  width: 127px;
+}
+header .navbar-nav .nav-item .nav-link.active {
+  color: #065393;
+  font-family: "Gilroy-Medium";
+  font-weight: 500;
+  font-style: normal;
+}
+
+.header-sec .btn-default {
+  margin: 60px 0px;
+}
+
+header .navbar-nav .nav-item .nav-link.btn-primary {
+  border: 1px solid rgba(6, 83, 147, 1);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150.5%;
+  font-family: "Gilroy-Medium";
+  color: #065393;
+  padding: 9px 30px 9px;
+  background-color: transparent;
+}
+header .navbar-nav .nav-item .nav-link.btn-primary:hover {
+  background-color: #065393;
+  color: white;
+}
+.header-sec {
+  background-image: url(../images/bg-img.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 700px;
+  padding-top: 50px;
+}
+
+.mobile {
+  display: none;
+}
+
+.image-holder {
+  position: relative;
+}
+
+header .nav {
+  margin-bottom: 44px;
+}
+.form-control:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+.form-select:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+.header-sec .text-box .socail-links {
+  position: relative;
+}
+
+.header-sec .text-box .socail-links::before {
+  content: "";
+  background-image: url(../images/arrow.svg);
+  width: 161px;
+  height: 117px;
+  position: absolute;
+  top: -84px;
+  left: 188px;
+}
+
+.header-sec .text-box {
+  margin-top: 50px;
+}
+
+.text-box h1 {
+  font-weight: 800;
+  font-size: 52px;
+  line-height: 120%;
+  font-weight: 800;
+  font-style: normal;
+  font-family: "Gilroy-ExtraBold";
+  color: white;
+}
+
+.text-box h2 {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 59px;
+  color: #333333;
+  font-family: "Gilroy-ExtraBold";
+}
+.socail-linkss {
+  position: absolute;
+  bottom: -250px;
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.header-sec .socail-linkss a {
+  margin-right: 14px;
+}
+
+.about-sec {
+  padding: 100px 0px;
+}
+
+.about-sec .text-box p {
+  text-transform: capitalize;
+}
+
+.about-sec ul {
+  margin-top: 30px;
+}
+
+.about-sec ul li span {
+  text-transform: capitalize;
+}
+.btn-view:hover {
+  color: white;
+}
+.process-sec .card-body .text-box {
+  padding: 150px 5px 65px;
+}
+
+.con-card {
+  background-image: url(../images/card-bg.png);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.con-card:hover {
+  background-image: url(../images/card-hvr.png);
+  cursor: pointer;
+  color: white;
+  transition: ease-in-out 0.5s;
+}
+
+.build-card {
+  background-image: url(../images/build-card.png);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.build-card :hover {
+  background-image: url(../images/build-hvr.png);
+  cursor: pointer;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: ease-in-out 0.5s;
+}
+
+.text-box h5 {
+  font-size: 28px;
+  line-height: 34px;
+  font-family: "Gilroy-Bold";
+  font-weight: 700;
+  color: #333333;
+}
+
+.process-sec .text-box p {
+  font-size: 15px;
+  padding-top: 38px;
+}
+
+.process-sec .con-card .image-holder {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -3px;
+}
+
+.plan-card .image-holder {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -38px;
+}
+
+.process-sec .build-card .image-holder {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 17px;
+}
+
+.plan-card {
+  background-color: #f9f9f9;
+  position: relative;
+}
+
+.process-sec .card:hover .text-box h5 {
+  color: white;
+}
+
+.plan-card:hover {
+  background-color: #065393;
+  color: white;
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+}
+
+.text-box h4 {
+  font-size: 18px;
+  line-height: 120%;
+  font-family: "Gilroy-Bold";
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #2c3935;
+}
+
+.service-sec .card-body {
+  box-shadow: 0px 15px 30px rgba(180, 180, 180, 0.08);
+  margin-top: -32%;
+  padding-top: 150px;
+  background-color: white;
+}
+
+.btn-read {
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  font-family: "Gilroy-Medium";
+  font-weight: 500;
+  color: #065393;
+}
+
+.service-sec {
+  background: #eef9ff;
+  margin: 80px 0px 171px;
+  padding: 83px 0px 52px;
+}
+
+.service-sec .card {
+  background: transparent;
+  position: relative;
+  z-index: 3;
+}
+
+.service-sec .card .text-box p {
+  min-height: 112px;
+}
+
+.work-sec .card .text-box p {
+  padding-top: 30px;
+}
+
+.work-sec .card:hover .text-box h5 {
+  color: white;
+}
+
+.service-sec .btn-default {
+  margin-top: 76px;
+}
+.btn-default:hover {
+  color: white;
+}
+.card:hover .image-holder .show {
+  display: none;
+}
+
+.card .image-holder .hide {
+  display: none;
+}
+
+.card:hover .image-holder .hide {
+  display: initial;
+  box-shadow: 3px 4px 35px rgb(0 0 0 / 30%);
+}
+
+.work-sec .card-body .text-box {
+  padding: 111px 5px 65px;
+}
+
+.client-sec {
+  background: #fcfcfc;
+  padding: 130px 0px;
+  margin-top: 90px;
+}
+
+.client-sec .card h6 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 155.5%;
+  font-family: "Gilroy-Bold";
+  color: #313131;
+}
+
+.footer-sec {
+  background-color: #065393;
+  padding-top: 70px;
+}
+
+.client-sec .container {
+  position: relative;
+}
+
+.carousel {
+  position: relative;
+  z-index: 1;
+}
+
+.client-sec .container::after {
+  background-color: #f2f2f2;
+  max-width: 1040px;
+  width: 100%;
+  top: 0;
+  height: 388px;
+  position: absolute;
+  content: "";
+  margin: auto;
+  right: 0;
+  left: 0;
+}
+
+.carousel-control-next-icon {
+  background-image: url(../images/right.svg);
+}
+
+.carousel-control-prev-icon {
+  background-image: url(../images/left.svg);
+}
+
+.carousel-control-next-icon:hover {
+  background-image: url(../images/right-hvr.svg);
+}
+
+.carousel-control-prev-icon:hover {
+  background-image: url(../images/left_hvr.svg);
+}
+
+.carousel-control-next {
+  bottom: -48px;
+  top: auto;
+  right: 46%;
+  opacity: 1;
+  width: 3%;
+}
+
+.carousel-control-prev {
+  bottom: -48px;
+  top: auto;
+  left: 46%;
+  opacity: 1;
+  width: 3%;
+}
+
+.form-sec {
+  background: #fcfcfc;
+  padding-bottom: 130px;
+  margin-top: 80px;
+}
+
+.form-sec .form-group .form-input {
+  background-color: #eef9ff;
+  height: 56px;
+  border: 0;
+}
+
+.form-sec .form-group .form-msg {
+  background-color: #eef9ff;
+  border: 0;
+}
+
+.form-sec form {
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  padding: 102px 0px;
+}
+
+.footer-sec ul li {
+  padding-top: 28px;
+}
+
+.form-sec form .text-box h5 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  font-family: "Gilroy-Bold";
+  padding: 95px 0px 20px;
+  color: #333333;
+}
+
+.footer-sec ul li a {
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.copy-right p {
+  font-size: 14px;
+}
+
+.copy-right {
+  border-top: 0.5px solid white;
+  padding: 20px 0px 28px;
+  margin-top: 80px;
+}
+
+.about-header {
+  background-image: url(../images/about-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 22px 0px;
+  color: white;
+}
+
+.about-header .text-box h5 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+}
+
+.statement-sec {
+  padding: 130px 0px 85px;
+}
+
+.wrapper {
+  background-color: #fcfcfc;
+}
+
+.work-sec {
+  background-color: white;
+}
+
+.about-work {
+  padding: 90px 0px 221px;
+}
+
+.contact-header {
+  background-image: url(../images/contact.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 177px 0px;
+  color: white;
+}
+
+.contact-sec {
+  margin-bottom: 127px;
+}
+
+.services-header {
+  background-image: url(../images/services-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 22px 0px;
+  color: white;
+}
+
+.card-sec .services-card {
+  padding: 16px;
+  background: #ffffff;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 0px;
+}
+
+.card-sec .services-card .text-box {
+  background: #f9f9f9;
+  padding: 16px 12px 32px 21px;
+}
+
+.btn-view {
+  background: #065393;
+  border-radius: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150.5%;
+  color: #ffffff;
+  font-family: "Gilroy-Medium";
+  padding: 6px 20px;
+}
+
+.card-sec {
+  margin: 146px 0px;
+}
+
+.remodeling-header {
+  background-image: url(../images/remoduling.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 177px 0px;
+  color: white;
+}
+
+.home-sec {
+  background: white !important;
+  padding: 87px 0px;
+}
+
+.fit-sec {
+  padding: 87px 0px;
+}
+
+.gallery-sec {
+  padding: 100px 0px 94px;
+  background-color: white;
+}
+
+.start-sec .text-box h6 {
+  font-size: 20px;
+  line-height: 150.5%;
+  font-family: "Gilroy-Bold";
+  font-weight: 700;
+  color: #6e6e6e;
+}
+
+.start-sec {
+  background: #e9f1f5;
+  padding: 60px 0px;
+  margin: 127px 0px;
+}
+
+.card-sec .services-card .text-box p {
+  font-size: 13px;
+  min-height: 105px;
+}
+
+.addition-header {
+  background-image: url(../images/addition_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 177px 0px;
+  color: white;
+}
+
+.adu-header {
+  background-image: url(../images/adu_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 177px 0px;
+  color: white;
+}
+
+.bathroom-header {
+  background-image: url(../images/bathroom_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 177px 0px;
+  color: white;
+}
+
+.concrete-coating-header {
+  background-image: url(../images/concrete_coating_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 177px 0px;
+  color: white;
+}
+.development-design-header {
+  background-image: url(../images/development_design_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 177px 0px;
+  color: white;
+}
+
+.fireplace-bbq-header {
+  background-image: url(../images/fireplace_bbq_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 177px 0px;
+  color: white;
+}
+
+.granny-flat-header {
+  background-image: url(../images/granny_flat_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 177px 0px;
+  color: white;
+}
+
+.kitchens-header {
+  background-image: url(../images/kitchens_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 177px 0px;
+  color: white;
+}
+
+.landscape-construction-header {
+  background-image: url(../images/landscape-construction_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 177px 0px;
+  color: white;
+}
+
+.outdoor-living-spaces-header {
+  background-image: url(../images/outdoor_living_spaces_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 177px 0px;
+  color: white;
+}
+
+.struXure-header {
+  background-image: url(../images/struXure_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 177px 0px;
+  color: white;
+}
+
+.water-features-header {
+  background-image: url(../images/water_features_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 177px 0px;
+  color: white;
+}
